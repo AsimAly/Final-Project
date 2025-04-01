@@ -3,6 +3,7 @@ margin: 0;
 padding: 0;
 text-decoration: none;
 list-style: none;
+max-width: 1480px;
 font-family: "Montserrat", sans-serif;
 }
 nav{
@@ -11,6 +12,9 @@ nav{
     justify-content: center;
     padding-top: 14px;
     align-items: center;
+}
+.toggle-btn{
+    display: none;
 }
 .logo{
     max-width: 291px;
@@ -21,8 +25,9 @@ nav{
 .menu{
     display: flex;
     align-items: center;
-    gap: 100px;
+    gap: 100px; 
     justify-content: space-around;
+    
 }
 .menu ul{
     display: flex;
@@ -56,7 +61,7 @@ nav{
     border-radius: 5px;
     border: none;
 }
-
+    
 
  /* Hero Section  */
  .hero-shadow{
@@ -68,6 +73,7 @@ nav{
  }
  .hero-bindu{
     position: relative;
+    
  }
  .bindu-img{
     position: absolute;
@@ -688,3 +694,151 @@ nav{
     line-height: 188px;
 
  }
+
+
+
+
+ @media (max-width: 1440px) {
+   
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+        max-width: 1440px;
+        font-family: "Montserrat", sans-serif;
+        }
+    nav{
+        display: flex;
+        gap: 270px;
+        justify-content: space-around;
+        padding-top: 14px;
+        align-items: center;
+    }
+    .logo{
+        max-width: 291px;
+        font-weight: 600;
+        font-size: 17px;
+        
+    }
+    
+ /* ==========================      Hero Section  */
+        
+    
+ .resp-hero-one{
+    width: 300px;
+ }
+ .resp-hero-two{
+    width: 350px;
+ }
+
+ .resp-hero-three{
+    width: 250px;
+ }
+ .hero-bindu{
+    display: none;
+   }
+   
+}
+
+@media (max-width: 1280px) {
+  
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+        max-width: 1280px;
+        font-family: "Montserrat", sans-serif;
+        }
+    nav{
+        display: flex;
+        gap: 100px;
+        justify-content: space-around;
+        padding-top: 14px;
+        align-items: center;
+    }
+    .logo{
+        max-width: 231px;
+        font-weight: 500;
+        font-size: 15px;
+        
+    }
+   
+
+     .resp-hero-one{
+        width: 250px;
+     }
+     .resp-hero-two{
+        width: 300px;
+     }
+   
+     .resp-hero-three{
+        width: 200px;
+     }
+     .hero-bindu{
+        display: none;
+       }
+        
+        
+}
+
+@media (max-width: 1024px) {
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+        max-width: 1024px;
+        font-family: "Montserrat", sans-serif;
+        }
+    nav{
+        display: flex;   
+        justify-content: space-around;
+        padding-top: 14px;
+        align-items: center;
+    }
+    
+    .logo{
+      
+        font-weight: 500;
+        font-size: 15px;
+        
+    }
+  .toggle-btn{
+    display: block;
+  }
+  .menu{
+    display: none;
+  }
+}
+
+ 
+
+@media (max-width: 760px) {
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+        max-width: 760px;
+        font-family: "Montserrat", sans-serif;
+        }
+}
+ 
+
+@media (max-width: 440px) {
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+        max-width: 440px;
+        font-family: "Montserrat", sans-serif;
+        }
+}
+
+
+
+
+
