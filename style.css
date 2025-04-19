@@ -80,19 +80,26 @@ nav{
  }
  .bindu-img{
     position: absolute;
-    left: 1050px;
-    top: 245px;
+    left: 1073px;
+    top: 218px;
     z-index: 1;
  }
  .bindu-red{
     position: absolute;
-    left: 1032px;
-    top: 274px;
+    left: 1056px;
+    top: 246px;
+    
  }
  .bindu-blue{
     position: absolute;
-    left: 1079px;
-    top: 208px;
+    left: 1097px;
+    top: 182px;
+ }
+ .bindu-voilet{
+    position: absolute;
+    left: 1097px;
+    top: 182px;
+    z-index: 1;
  }
  .hero-sec{
     display: flex;
