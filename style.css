@@ -752,7 +752,7 @@ nav{
     max-width: 202px;
 }
 .ctext-one-inner1{
-    background-color: #b1daff;
+    background-color: #A7EBFF;
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -761,8 +761,92 @@ nav{
     font-size: 22px;
     padding-left: 7px;
     padding-top: 7px;
+    color: #006CC5 ;
  
 }
+/* =====    Career Journey Section  */
+
+.carrer-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.ccarrer-inner{
+    width: 1220px;
+    height: 284px;
+    /* background-color:    #3CD2FB; */
+    background: linear-gradient(90deg, #3CD2FB 31.1%, #0383FB 71.3%);
+
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    position: relative;
+    gap: 50px;
+    align-items: center;
+    
+}
+.c1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+}
+.c2{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.c3{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.c4{
+    position: absolute;
+    right: -40px;
+}
+.cpart-one h1{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 55px;
+    
+    max-width: 606px;
+}
+.cpart-one{
+    z-index: 1;
+}
+.cpart-two{
+    z-index: 1;
+}
+.carrer-btn{
+    padding-top: 30px;
+}
+.carrer-btn button{
+    background-color: #000D2F;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 7px 16px;
+    border-radius: 80px;
+    color: #ffff;
+    border: none;
+}
+/* .cpart-two{
+    padding-top: 8px;
+} */
+.ccareer-img-circle{
+    background-color: #FBD056E5;
+    border-radius: 50%;
+    width: 254px;
+    height: 254px;
+    margin-top: 100px;
+   
+}
+.ccareer-img-circle img{
+   margin-top: -45px;
+}
+
 
 
      /* =========================      Responsive Mediaa Queries Start  */
