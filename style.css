@@ -700,6 +700,69 @@ nav{
 
  }
 
+  /* ===============================   Contact Us Css Start ====== = == = */
+.chero-one{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    padding-top: 70px;
+}
+.ctext-heading h1{
+    max-width: 529px;
+    font-size: 34px;
+    font-weight: 700;
+    padding-bottom: 50px;
+
+}
+.ccards-all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.ctext-card1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+.ctext-card2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+.ctext-card-inner{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+.ctext-one-inner2 h3{
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.ctext-one-inner2 p{
+    font-weight: 400;
+    font-size: 13px;
+    padding-top: 6px;
+    max-width: 202px;
+}
+.ctext-one-inner1{
+    background-color: #b1daff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.ctext-one-inner1 i{
+    font-size: 22px;
+    padding-left: 7px;
+    padding-top: 7px;
+ 
+}
 
 
      /* =========================      Responsive Mediaa Queries Start  */
