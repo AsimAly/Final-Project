@@ -95,12 +95,12 @@ nav{
     left: 1097px;
     top: 182px;
  }
- .bindu-voilet{
+ .bindu-rotate {
     position: absolute;
-    left: 1097px;
-    top: 182px;
-    z-index: 1;
- }
+    left: 1034px;
+    top: 200px;
+    z-index: 0;
+}
  .hero-sec{
     display: flex;
     max-width: 1440px;
