@@ -771,7 +771,7 @@ nav{
     color: #006CC5 ;
  
 }
-/* =====    Career Journey Section  */
+/* =====    Career Journey Section CSS  */
 
 .carrer-sec{
     display: flex;
@@ -783,9 +783,7 @@ nav{
 .ccarrer-inner{
     width: 1220px;
     height: 284px;
-    /* background-color:    #3CD2FB; */
     background: linear-gradient(90deg, #3CD2FB 31.1%, #0383FB 71.3%);
-
     display: flex;
     overflow: hidden;
     justify-content: center;
@@ -839,9 +837,7 @@ nav{
     color: #ffff;
     border: none;
 }
-/* .cpart-two{
-    padding-top: 8px;
-} */
+
 .ccareer-img-circle{
     background-color: #FBD056E5;
     border-radius: 50%;
@@ -1293,6 +1289,27 @@ nav{
         max-width: 1166px;
         padding-bottom: 50px;
     }
+
+  /* =====    Career Journey Section CSS  */
+
+.chero-img img{
+    width: 453px;
+}
+
+.ccards-all{
+    gap: 50px;
+}
+.ctext-one-inner1{
+    width: 30px;
+    height: 30px;
+}
+.ctext-one-inner1 i {
+    font-size: 18px;
+    padding-left: 7px;
+    padding-top: 5px;
+    color: #006CC5;
+}
+
 }
 
 @media (max-width: 1024px) {
@@ -1651,6 +1668,31 @@ nav{
             display: flex ;
             gap: 71px;
         }
+ /* Carrer Css Start  */
+
+        .chero-one {
+            display: flex ;
+            justify-content: center;
+            gap: 50px;
+            align-items: center;
+            flex-direction: column-reverse;
+            padding-top: 70px;
+        }
+        .chero-img img {
+            width: 553px;
+        }
+        .ctext-heading h1 {
+            max-width: 572px;
+            font-size: 30px;
+            font-weight: 700;
+            padding-bottom: 40px;
+        }
+        .ctext-card1 , .ctext-card2 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 100px;
+        }
 }
 
 @media (max-width: 768px) {
@@ -2003,6 +2045,20 @@ nav{
     .toggl{
         display: block;
     }
+
+
+    .ccarrer-inner {
+        width: 1220px;
+        height: 219px;
+        background: linear-gradient(90deg, #3CD2FB 31.1%, #0383FB 71.3%);
+        display: flex  ;
+        flex-wrap: wrap;
+        overflow: hidden;
+        justify-content: center;
+        position: relative;
+        gap: 50px;
+        align-items: center;
+    }
 }
  
 
@@ -2156,7 +2212,21 @@ nav{
         justify-content: space-around;
     }
 
-
+    .chero-img img {
+        width: 460px;
+    }
+    .ctext-card1, .ctext-card2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 40px;
+    }
+    .ctext-heading h1 {
+        max-width: 460px;
+        font-size: 30px;
+        font-weight: 700;
+        padding-bottom: 40px;
+    }
 }
  
 @media (max-width:480px) {
@@ -2485,6 +2555,41 @@ nav{
     }
 
 
+
+
+    .chero-img img {
+        width: 300px;
+    }
+    .chero-one {
+        gap: 40px;
+        padding-top: 36px;
+    }
+
+    .ctext-heading h1 {
+        max-width: 360px;
+        font-size: 26px;
+        font-weight: 700;
+        padding-bottom: 30px;
+    }
+    .ccards-all {
+        gap: 30px;
+    }
+    .ctext-one-inner1 i {
+        font-size: 20px;
+        padding-left: 2px;
+        padding-top: 3px;
+        color: #006CC5;
+    }
+    .ctext-one-inner1 {
+        width: 25px;
+        height: 25px;
+    }
+    .cpart-one h1 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 44px;
+        max-width: 606px;
+    }
 }
 
 
