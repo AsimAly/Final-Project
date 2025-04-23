@@ -1330,14 +1330,49 @@ nav{
     display: block;
   }
   .menu{
-    display: none;
+    display: block;
+   align-items: start ;
+    flex-direction: column;
+    position: absolute;
+    border: 1px solid black;
+    z-index: 1;
+    height: 300px;
+    width: 100%;
+    background-color: #e7e7e7;
+    top: 70px;
+    left: -950px;
+    box-shadow: -8px -2px 21px 20px rgba(48,31,224,0.3) inset;
+    -webkit-box-shadow: -8px -2px 21px 20px rgba(48,31,224,0.3) inset;
+    -moz-box-shadow: -8px -2px 21px 20px rgba(48,31,224,0.3) inset;
+
   }
 
+  .menu ul{
+    flex-direction: column;
+    padding-bottom: 10px;
+    gap: 20px;
+    align-items: start;
+  }
+  .btn-nav{
+    flex-direction: column;
+  }
+.btn-one{
+    padding: 4px 8px;
+    max-width: 100px;
+
+}
+.btn-two{
+    padding: 4px 8px;
+    max-width: 120px;
+
+
+}
   .hero-sec {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position: relative;
    
 }
 .shadow-hero{
