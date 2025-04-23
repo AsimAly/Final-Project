@@ -1328,6 +1328,7 @@ nav{
     }
   .toggle-btn{
     display: block;
+    
   }
   .menu{
     display: block;
@@ -1340,10 +1341,11 @@ nav{
     width: 100%;
     background-color: #e7e7e7;
     top: 70px;
-    left: -950px;
-    box-shadow: -8px -2px 21px 20px rgba(48,31,224,0.3) inset;
-    -webkit-box-shadow: -8px -2px 21px 20px rgba(48,31,224,0.3) inset;
-    -moz-box-shadow: -8px -2px 21px 20px rgba(48,31,224,0.3) inset;
+    left: -1026px;
+    box-shadow: -8px -2px 21px 20px rgba(103, 175, 20, 0.3) inset;
+    -webkit-box-shadow: -8px -2px 21px 20px rgba(119, 116, 150, 0.3) inset;
+    -moz-box-shadow: -8px -2px 21px 20px rgba(51, 49, 70, 0.3) inset;
+    transition: 0.2;
 
   }
 
