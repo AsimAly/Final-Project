@@ -1,16 +1,19 @@
-const bar = document.getElementById('fa-solid')
-const ulItem = document.querySelector(".menu")
+const bar = document.querySelector('#fa-solid')
+const ulItem = document.querySelector("#menu-s")
 
 function clickBar(){
 
     // console.log(unItem.style.left)
 
-    if(ultem.style.left==='0px'){
-        unItem.style.left = '-970px';
+    if(ulItem.style.left==='0px'){
+        ulItem.style.left = '-1026px';
 
     }else{
-        ultem.style.left = '0px';
+        ulItem.style.left = '0px';
     }
 }
 
-bar.addEventListener("click", clickBar);
+bar.addEventListener('click', clickBar);
+
+
+
