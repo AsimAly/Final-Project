@@ -1319,7 +1319,9 @@ nav{
         display: flex;   
         padding-top: 14px;
         align-items: center;
-        
+        gap: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     
     .logo {
@@ -1327,51 +1329,36 @@ nav{
         font-size: 15px;
         max-width: 250px;
     }
-  .toggle-btn{
-    display: block;
-    
-  }
-  .menu{
-    display: block;
-   align-items: center ;
-   justify-content: center;
-    flex-direction: column;
-    position: absolute;
-    /* border: 1px solid black; */
-    z-index: 1;
-    height: 200px;
-    width: 200px;
-    background-color: #e7e7e7;
-    top: 70px;
-    left: -1026px;
-    box-shadow: -8px -2px 21px 20px rgba(103, 175, 20, 0.3) inset;
-    -webkit-box-shadow: -8px -2px 21px 20px rgba(119, 116, 150, 0.3) inset;
-    -moz-box-shadow: -8px -2px 21px 20px rgba(51, 49, 70, 0.3) inset;
-   transition:  0.5s ease ;
-
-  }
-
-  .menu ul{
-    flex-direction: column;
-    padding-bottom: 10px;
-    gap: 20px;
-    align-items: start;
-    padding-top: 10px;
-  }
-  .btn-nav{
-    flex-direction: column;
-  }
-.btn-one{
-    padding: 4px 8px;
-    max-width: 100px;
-
-}
-.btn-two{
-    padding: 4px 8px;
-    max-width: 120px;
+    .menu ul {
+        gap: 24px;
+       
+    }
+   
+    .menu {
+        gap: 15px;
+    }
+    .btn-one {
+        padding: 7px 25px;
+        background-color: #295782;
+        color: #ffff;
+        font-weight: 500;
+        font-size: 14px;
+        border-radius: 5px;
+        border: none;
+    }
+    .btn-two {
+        padding: 7px 15px;
+        background-color: #295782;
+        color: #ffff;
+        font-weight: 500;
+        font-size: 14px;
+        border-radius: 5px;
+        border: none;
+    }
 
 
-}
+
+
   .hero-sec {
     display: flex;
     align-items: center;
@@ -1736,6 +1723,44 @@ nav{
 }
 
 @media (max-width: 768px) {
+
+    
+    .toggle-btn{
+        display: block;
+        
+      }
+      .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        z-index: 1;
+        top: 70px;
+        left: -1026px;
+       transition:  0.5s ease ;
+       width: 240px;
+        height: 240px;   
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: 0px 0px 16px 0px #00000040;
+        background-color: #ffffff;
+        box-shadow: 82px -5px 366px 94px rgba(73, 83, 128, 0.53);
+-webkit-box-shadow: 82px -5px 366px 94px rgba(73, 83, 128, 0.53);
+-moz-box-shadow: 82px -5px 366px 94px rgba(73, 83, 128, 0.53);
+    
+      }
+      .menu ul{
+        display: flex;
+        flex-direction: column;
+
+      }
+    .btn-nav{
+        display: flex;
+        flex-direction: column;
+      }
+
+
     .hero-text h2 {
         max-width: 687px;
         padding-top: 60px;
@@ -2061,9 +2086,19 @@ nav{
             line-height: 30px;
             border: none;
         }
-
-
- 
+        .footer{
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 15px;
+    }
+    .f-text {
+        padding-bottom: 2px;
+    }
+    .about-fote ul {
+        display: flex
+        ;
+        gap: 100px;
+    }
     .about-gallery {
         padding-top: 0px;
         text-align: center;
@@ -2086,12 +2121,8 @@ nav{
         max-width: 1166px;
         padding-bottom: 40px;
     }
-    .about-fote{
-        display: none;
-    }
-    .toggl{
-        display: block;
-    }
+    
+ 
 
 
     .ccarrer-inner {
@@ -2250,15 +2281,26 @@ nav{
     height: 700px;
 }
 
+.footer{
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 15px;
+}
+.f-text {
+    padding-bottom: 2px;
+}
+.about-fote ul {
+    display: flex
+    ;
+    gap: 70px;
+}
 
-
-.fot2{
- 
-        background-color: #D9D9D9;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
+.about-fote ul li a {
+    color: #000000;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 188px;
+}
 
     .chero-img img {
         width: 460px;
@@ -2287,11 +2329,17 @@ nav{
     }
     nav {
         display: flex;
+        justify-content: space-around;
+        align-items: center;
         padding-top: 14px;
         align-items: center;
         padding-left: 10px;
         padding-right: 10px;
+        gap: 170px;
         justify-content: center;
+    }
+    .logo h1{
+        max-width: 150px;
     }
     .hero-text h2 {
        max-width: 300px;
@@ -2514,13 +2562,13 @@ nav{
         padding-top: 25px;
    
        }
-       .gallery h2{
+       .gallery h2 {
         font-weight: 700;
-        font-size: 56px;
-        line-height: 100%;
-        letter-spacing: 0%;
+        font-size: 40px;
+        line-height: 80%;
+    
         text-align: center;
-        padding-bottom: 50px;
+        padding-bottom: 40px;
     }
     .gall-img-12{
      display: flex;
@@ -2654,16 +2702,25 @@ nav{
     font-size: 22px;
 }
   
+.footer{
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 15px;
+}
+.f-text {
+    padding-bottom: 2px;
+}
+.about-fote ul {
+    display: flex ;
+    gap: 18px;
+}
 
-    .fot2{
- 
-        background-color: #D9D9D9;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-
+.about-fote ul li a {
+    color: #000000;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 188px;
+}
 
 
     .chero-img img {
